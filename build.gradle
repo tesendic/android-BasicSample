@@ -18,7 +18,7 @@
 
 buildscript {
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.13.2'
+        classpath 'com.android.tools.build:gradle:9.5.2'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -42,10 +42,10 @@ task clean(type: Delete) {
 
 ext {
     appCompatVersion = '1.7.1'
-    constraintLayoutVersion = '2.2.1'
+    constraintLayoutVersion = '2.2.2'
     coreTestingVersion = '2.2.0'
-    lifecycleVersion = '2.10.0'
-    materialVersion = '1.13.0'
+    lifecycleVersion = '2.11.1'
+    materialVersion = '1.14.0'
     roomVersion = '2.8.4'
     // testing
     junitVersion = '4.13.2'
